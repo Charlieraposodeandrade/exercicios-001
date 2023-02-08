@@ -1,0 +1,62 @@
+@charset "UTF-8";
+header{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    
+}
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header>p{
+    padding: bottom;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 4.5vw;
+}
+section>p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.103)
+    color white    
+
+}
+section.imagem>p{
+    display: inline-block;
+    padding: 5px;
+        background-color: black;
+       background-attachment: fixed;
+        
+
+}
+section#joana{
+    background-image: url(IMAGENS/joana.jpg)
+}
+section#milton{
+    background-image: url(IMAGENS/miltom.jpg)
+    background-position: right center;
+}
+footer{
+    background-color: black;
+   text-align: center;
+   padding: 10px;
+   color:white
+   
+   
+   
+}
+
