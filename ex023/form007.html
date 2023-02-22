@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form006</title>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="limpar"></label>
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+        
+        </p>
+        <p>
+            
+                <optgroup label="regiao sul">
+                    <label for="ist">estado</label>
+                    <select name="estado" id="lest">
+                        <option value="sp">sao paulo
+                            <option value="mg">mato grosso
+                                <option value="rj">rio de janeiro</option>
+                </optgroup>
+                    </option>
+                </option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">profissao</label>
+            <input type="text" name="prof" list="prof" id="lisprof">
+            <datalist id="ilstprof">
+                <option value="adm">administrador</option>
+                <option value="ad">advgogado
+                    <option value="fm">farmarceutico</option>
+                </option>
+            </datalist>
+            
+        </p>
+        <p>
+            <label for="img">mensagem</label> <br>
+            <textarea name="msg" id="img" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
