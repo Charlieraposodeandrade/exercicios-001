@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+   margin-block: 0px;
+}
+html,body{
+    background-color:rgba(255, 0, 0, 0) }
+
+p{
+    padding: 21px;
+    margin: auto;
+}
+header>h1{
+    padding: 20px;
+    text-align: center;
+}
+menu{
+    display: block;
+}
+ul,li,a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 100, 0, 0.527);
+   color: white;
+  
+   
+}
+
+   menu>ul> li > a.hover{
+    background-color:violet;
+   }
+   main{
+    width: 90vw;
+    background: white;
+    margin: top 10px;
+    border-radius: 10px;
+   }
